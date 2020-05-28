@@ -1,0 +1,349 @@
+/* main section */
+.main {
+    width: 981px;
+    height: 457px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+/* main section: focus part */
+.focus {
+    position: relative;
+    width: 730px;
+    height: 457px;
+    padding-right: 10px;
+}
+
+/* manually increase the parent box's width */
+/* in order to put all img in the same line */
+.focus ul {
+    width: 450%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+/* dot carousel indicator */
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* main section: newsflash part */
+.newsflash {
+    width: 251px; 
+    height: 457px;
+}
+
+/* main section: newsflash part: news block on the top */
+.news {
+    height: 165px;
+    border: 1px solid #ccc;
+}
+
+/* main section: newsflash part: news block > news-hd */
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e902';
+    padding-left: 5px;
+}
+
+/* main section: newsflash part: news block > news-bd */
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+/* main section: newsflash part: life-services in the middle */
+.life-services {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.life-services li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.life-services li:nth-child(4n){
+    width: 63px;
+    border-right: none;
+}
+
+.life-services li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.life-services li i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background-color: pink;
+}
+
+.life-services li p {
+    text-align: center;
+}
+
+.cellphone {
+    background: transparent url(../images/icons.png) no-repeat -17px -16px;
+}
+
+.ticket {
+    background: transparent url(../images/icons.png) no-repeat -79px -16px;
+}
+
+.movie {
+    background: transparent url(../images/icons.png) no-repeat -141px -16px;
+}
+
+.game {
+    background: transparent url(../images/icons.png) no-repeat -206px -16px;
+}
+
+.lottery {
+    background: transparent url(../images/icons.png) no-repeat -17px -88px;
+}
+.gas {
+    background: transparent url(../images/icons.png) no-repeat -79px -88px;
+}
+
+.hotel {
+    background: transparent url(../images/icons.png) no-repeat -141px -88px;
+}
+.train {
+    background: transparent url(../images/icons.png) no-repeat -206px -88px;
+}
+.crowd {
+    background: transparent url(../images/icons.png) no-repeat -17px -159px;
+}
+.money {
+    background: transparent url(../images/icons.png) no-repeat -79px -159px;
+}
+.gift {
+    background: transparent url(../images/icons.png) no-repeat -141px -159px;
+}
+.iou {
+    background: transparent url(../images/icons.png) no-repeat -206px -159px;
+}
+
+/* main section: newsflash part: bargain on the bottom */
+.bargain {
+    height: 75px;
+    margin-top: 6px;
+    background: transparent url(../upload/bargain.png) no-repeat;
+}
+
+/* recommend section */
+
+.recommend {
+    height:163px;
+    margin-top: 10px;
+}
+
+/* recommend section: recom-hd part */
+.recom-hd {
+    width: 208px;
+    height: 100%;
+    background-color: #5c5251;
+}
+
+.recom-hd a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.recom-hd i {
+    display: block;
+    width: 59px;
+    height: 59px;
+    background: transparent url(../images/clock.png) no-repeat;
+    margin: 29px auto 10px;
+}
+
+.recom-hd p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* recommend section: recom-bd part */
+.recom-bd {
+    width: 992px;
+    height: 100%;
+}
+
+.recom-bd ul li {
+    float: left;
+    width: 248px;
+}
+
+/* floor section */
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+
+}
+
+.tab-list li a {
+    padding: 0 15px;
+}
+
+/* box-bd */
+
+.box-bd {
+    height: 361px; 
+}
+
+.w209{
+    width: 209px;
+}
+
+.w329 {
+    width: 329px;
+    background-color: #f9f9f9;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 361px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    margin-top: 5px;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+.box-bd img {
+    transition: all 0.s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+/* fixed tool  */
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    height: 20px;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
